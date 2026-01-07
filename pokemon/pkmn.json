@@ -1,0 +1,8 @@
+{
+    "pkmn": [
+        {"id":1, "name": "Voltorb", "type": "Electric", "moves": [], "hp": 30, "strong":["Ground"], "weak":["Water"], "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp2_Laqf_SJ_Drt0v5y6x4aOWh99qH8-CphA&s"},
+        {"id":2, "name": "Tangela", "type":"Insect", "moves": [], "hp":30, "strong":["Ground"], "weak":["Water"], "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp2_Laqf_SJ_Drt0v5y6x4aOWh99qH8-CphA&s" },
+        {"id":3, "name": "Beedrill", "type":"Insect", "moves": [], "hp":30, "strong":["Ground"], "weak":["Water"], "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp2_Laqf_SJ_Drt0v5y6x4aOWh99qH8-CphA&s"}
+        
+    ]
+}
