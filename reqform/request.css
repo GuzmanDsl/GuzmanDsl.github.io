@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+
+    font-size: 1.5rem;
+
+}
+
+form{
+    justify-self: center;
+}
+
+select{
+    font-size: 1.2rem;
+}
+
+input{
+    font-size: 1.2rem;
+}
+
+#grade-input{
+    display:flex;
+}
+
+#submitbtn{
+    height: 50px;
+    width: 150px;
+    background-color: #321aa2;
+}

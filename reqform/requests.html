@@ -17,24 +17,52 @@
     </header>
 
     <form action="">
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name">
+        <fieldset id="pers-info">
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
 
-        <label for="type">Request Type:</label>
-        <select name="type" id="type">
-            <option value="1">
-                Counselor
-            </option>
-            <option value="2">
-                Admin
-            </option>
-            <option value="3">
-                Teacher
-            </option>
-            <option value="4">
-                Security
-            </option>
-        </select>
+            <label for="grade">Grade:</label>
+            <div id="grade-input">
+    
+                <label for="nine"><input type="radio" name="grade"> 9th </label>
+                <label for="ten"><input type="radio" name="grade"> 10th </label>
+                <label for="elev"><input type="radio" name="grade"> 11th </label>
+                <label for="twel"><input type="radio" name="grade"> 12th </label>
+            </div>
+
+        </fieldset>
+
+        <fieldset id="app-info">
+
+            <label for="type">Request Type:</label>
+            <select name="type" id="type">
+                <option value="1">
+                    Counselor
+                </option>
+                <option value="2">
+                    Admin
+                </option>
+                <option value="3">
+                    Teacher
+                </option>
+                <option value="4">
+                    Security
+                </option>
+            </select>
+
+            <label for="date">Date:</label>
+            <input type="date" name="date" id="date">
+
+            <label for="time">Time:</label>
+            <input type="time" name="time" id="time">
+
+
+        </fieldset>
+
+
+
+        <div id="submitbtn">Submit</div>
 
 
     </form>
