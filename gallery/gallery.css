@@ -7,4 +7,16 @@
 
   background-image: linear-gradient(5deg, #303030 5%, black 10%, rgb(72, 66, 66) 90%);
 
+ 
+}
+
+.img-card > img{
+    height: 200px;
+}
+
+
+.container{
+    display: flex;
+    gap: 3rem;
+    
 }
